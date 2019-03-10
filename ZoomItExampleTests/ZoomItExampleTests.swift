@@ -1,20 +1,17 @@
 //
-//  ZoomItTests.swift
-//  ZoomItTests
+//  ZoomItExampleTests.swift
+//  ZoomItExampleTests
 //
 //  Created by Sherif  Wagih on 3/10/19.
 //  Copyright © 2019 Sherif  Wagih. All rights reserved.
 //
 
 import XCTest
-@testable import ZoomIt
+@testable import ZoomItExample
 
-class ZoomItTests: XCTestCase {
+class ZoomItExampleTests: XCTestCase {
 
-    var zoomImageView:ZoomableImageView!
     override func setUp() {
-        zoomImageView = ZoomableImageView()
-
         // Put setup code here. This method is called before the invocation of each test method in the class.
     }
 
